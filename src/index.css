@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Script&family=Mozilla+Text:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+HU&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+:root {
+  --bg-main-from: #f3efea;
+  --bg-main-to: #f8f6f2;
+  --accent-from: #6b3a2d;
+  --accent-to: #5c2e1f;
+  --text-main: #2a1c17;
+  --text-secendary: #8c7c6f;
+  --highlight: #fafafa;
+  --tags: #e6c8a5;
+}
+
+.bg-main-gradient {
+  background: linear-gradient(180deg, var(--bg-main-from), var(--bg-main-to));
+}
+
+.bg-accent-gradient {
+  background: linear-gradient(135deg, var(--accent-from), var(--accent-to));
+}
+
+body {
+  background: url("../src/assets/cofe-bg-two.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-color: #010101; 
+
+
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.logo-font {
+  font-family: "Playwrite HU", cursive;
+}
+
+.bg-slider-prod {
+  position: relative;
+  top: -160px;
+}
+
+.img-half {
+  width: 600px;
+  object-fit: contain;
+  transform: translateX(-150px);
+}
