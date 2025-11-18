@@ -24,6 +24,7 @@ npm --version
 🛠️ Installation
 Follow these steps to set up the project locally:
 
+<<<<<<< HEAD
 Clone the repository
 
 bash   git clone https://github.com/shopnil9826/coffee-landing-page-using-reactjs-redux-and-tailwind-css
@@ -106,3 +107,12 @@ Mobile Number : 01682809826
 Design inspiration from modern coffee shop websites
 Icons from React Icons library
 Community support and open-source contributors
+=======
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+install : npm i
+Start server: npm run dev
+Name: Shah Rabbani Chowdhury
+Mobile number : 01682809826
+>>>>>>> 974d808db2a50e61ff172616879db30c98e1a08b
